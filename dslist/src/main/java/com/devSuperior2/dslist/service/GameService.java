@@ -4,9 +4,10 @@ import com.devSuperior2.dslist.dto.GameDTO;
 import com.devSuperior2.dslist.dto.GameMinDTO;
 import com.devSuperior2.dslist.entities.Game;
 import com.devSuperior2.dslist.repository.GameRepository;
-import jakarta.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
